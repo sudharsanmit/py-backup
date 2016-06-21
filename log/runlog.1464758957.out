@@ -1,0 +1,43 @@
+2016-06-01 06:29:21,658: ModelBootstrap :     INFO: Thread-1   : Starting Threads
+2016-06-01 06:29:22,028: ModelBootstrap :     INFO: Thread-1   : Started all Threads.
+2016-06-01 06:29:22,228: ModelTarget    :     INFO: Thread-4   : PRODUCER_API: Class - calculator, Method - input     , Send - {}
+2016-06-01 06:29:22,232: ModelTarget    :     INFO: Thread-4   : CONSUMER:GET: Class - calculator, Method - input     , Recv - {'value2': 3903, 'value1': 2430}
+2016-06-01 06:29:22,234: ModelTarget    :     INFO: Thread-4   : CONSUMER:GET: Class - calculator, Method - input     , Recv - {'value2': 150, 'value1': 4647}
+2016-06-01 06:29:22,239: ModelTarget    :     INFO: Thread-4   : CONSUMER:GET: Class - calculator, Method - input     , Recv - {'value2': 81, 'value1': 5599}
+2016-06-01 06:29:22,242: ModelTarget    :     INFO: Thread-9   : PRODUCER_API: Class - calculator, Method - add       , Send - {'value2': 3903, 'value1': 2430}
+2016-06-01 06:29:22,242: ModelTarget    :     INFO: Thread-455 : PRODUCER_API: Class - calculator, Method - subtract  , Send - {'value2': 3903, 'value1': 2430}
+2016-06-01 06:29:22,243: ModelTarget    :     INFO: Thread-4   : CONSUMER:GET: Class - calculator, Method - input     , Recv - {'value2': 9436, 'value1': 2694}
+2016-06-01 06:29:22,246: ModelTarget    :     INFO: Thread-499 : PRODUCER_API: Class - calculator, Method - subtract  , Send - {'value2': 150, 'value1': 4647}
+2016-06-01 06:29:22,247: ModelTarget    :     INFO: Thread-105 : PRODUCER_API: Class - calculator, Method - add       , Send - {'value2': 150, 'value1': 4647}
+2016-06-01 06:29:22,247: ModelTarget    :     INFO: Thread-9   : CONSUMER:GET: Class - calculator, Method - add       , Recv - {'op1': 6333}
+2016-06-01 06:29:22,249: ModelTarget    :     INFO: Thread-427 : PRODUCER_API: Class - calculator, Method - subtract  , Send - {'value2': 81, 'value1': 5599}
+2016-06-01 06:29:22,250: ModelTarget    :     INFO: Thread-53  : PRODUCER_API: Class - calculator, Method - add       , Send - {'value2': 81, 'value1': 5599}
+2016-06-01 06:29:22,255: ModelTarget    :     INFO: Thread-515 : PRODUCER_API: Class - calculator, Method - subtract  , Send - {'value2': 9436, 'value1': 2694}
+2016-06-01 06:29:22,252: ModelTarget    :     INFO: Thread-4   : CONSUMER:GET: Class - calculator, Method - input     , Recv - {'value2': 1968, 'value1': 94}
+2016-06-01 06:29:22,253: ModelTarget    :     INFO: Thread-499 : CONSUMER:GET: Class - calculator, Method - subtract  , Recv - {'op2': 4497}
+2016-06-01 06:29:22,254: ModelTarget    :     INFO: Thread-83  : PRODUCER_API: Class - calculator, Method - add       , Send - {'value2': 9436, 'value1': 2694}
+2016-06-01 06:29:22,255: ModelTarget    :     INFO: Thread-105 : CONSUMER:GET: Class - calculator, Method - add       , Recv - {'op1': 4797}
+2016-06-01 06:29:22,251: ModelTarget    :     INFO: Thread-455 : CONSUMER:GET: Class - calculator, Method - subtract  , Recv - {'op2': -1473}
+2016-06-01 06:29:22,257: ModelTarget    :     INFO: Thread-427 : CONSUMER:GET: Class - calculator, Method - subtract  , Recv - {'op2': 5518}
+2016-06-01 06:29:22,258: ModelTarget    :     INFO: Thread-53  : CONSUMER:GET: Class - calculator, Method - add       , Recv - {'op1': 5680}
+2016-06-01 06:29:22,259: ModelTarget    :     INFO: Thread-515 : CONSUMER:GET: Class - calculator, Method - subtract  , Recv - {'op2': -6742}
+2016-06-01 06:29:22,264: ModelTarget    :     INFO: Thread-567 : PRODUCER_API: Class - calculator, Method - subtract  , Send - {'value2': 1968, 'value1': 94}
+2016-06-01 06:29:22,271: ModelTarget    :     INFO: Thread-567 : CONSUMER:GET: Class - calculator, Method - subtract  , Recv - {'op2': -1874}
+2016-06-01 06:29:22,264: ModelTarget    :     INFO: Thread-83  : CONSUMER:GET: Class - calculator, Method - add       , Recv - {'op1': 12130}
+2016-06-01 06:29:22,265: ModelTarget    :     INFO: Thread-115 : PRODUCER_API: Class - calculator, Method - add       , Send - {'value2': 1968, 'value1': 94}
+2016-06-01 06:29:22,273: ModelTarget    :     INFO: Thread-115 : CONSUMER:GET: Class - calculator, Method - add       , Recv - {'op1': 2062}
+2016-06-01 06:29:22,534: ModelTarget    :     INFO: Thread-236 : PRODUCER_API: Class - calculator, Method - result    , Send - {'op2': -1874, 'op1': 4797}
+2016-06-01 06:29:22,536: ModelTarget    :     INFO: Thread-326 : PRODUCER_API: Class - calculator, Method - result    , Send - {'op2': 5518, 'op1': 6333}
+2016-06-01 06:29:22,538: ModelTarget    :     INFO: Thread-386 : PRODUCER_API: Class - calculator, Method - result    , Send - {'op2': 4497, 'op1': 12130}
+2016-06-01 06:29:22,539: ModelTarget    :     INFO: Thread-382 : PRODUCER_API: Class - calculator, Method - result    , Send - {'op2': -1473, 'op1': 5680}
+2016-06-01 06:29:22,566: ModelTarget    :     INFO: Thread-328 : PRODUCER_API: Class - calculator, Method - result    , Send - {'op2': -6742, 'op1': 2062}
+2016-06-01 06:29:23,538: ModelTarget    :     INFO: Thread-236 : CONSUMER:GET: Class - calculator, Method - result    , Recv - {'result': 4797}
+2016-06-01 06:29:23,539: ModelTarget    :     INFO: Thread-236 : CONSUMER:GET: Class - calculator, Method - result    , Recv - {'result': -1874}
+2016-06-01 06:29:23,540: ModelTarget    :     INFO: Thread-386 : CONSUMER:GET: Class - calculator, Method - result    , Recv - {'result': 12130}
+2016-06-01 06:29:23,540: ModelTarget    :     INFO: Thread-386 : CONSUMER:GET: Class - calculator, Method - result    , Recv - {'result': 4497}
+2016-06-01 06:29:23,541: ModelTarget    :     INFO: Thread-326 : CONSUMER:GET: Class - calculator, Method - result    , Recv - {'result': 6333}
+2016-06-01 06:29:23,542: ModelTarget    :     INFO: Thread-326 : CONSUMER:GET: Class - calculator, Method - result    , Recv - {'result': 5518}
+2016-06-01 06:29:23,543: ModelTarget    :     INFO: Thread-382 : CONSUMER:GET: Class - calculator, Method - result    , Recv - {'result': 5680}
+2016-06-01 06:29:23,543: ModelTarget    :     INFO: Thread-382 : CONSUMER:GET: Class - calculator, Method - result    , Recv - {'result': -1473}
+2016-06-01 06:29:23,566: ModelTarget    :     INFO: Thread-328 : CONSUMER:GET: Class - calculator, Method - result    , Recv - {'result': 2062}
+2016-06-01 06:29:23,567: ModelTarget    :     INFO: Thread-328 : CONSUMER:GET: Class - calculator, Method - result    , Recv - {'result': -6742}
